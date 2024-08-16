@@ -1,0 +1,37 @@
+class Phonenumber 
+{
+	public static void main(String[] args) 
+	{
+		long n=9845789765l;
+		long sum of digits=0;
+		while(n!=0)
+		{
+			long lastdigit=n%10;
+			sum of digits=lastdigit+sum of digits;
+			n=n/10;
+		}
+		long temp=sum of digits;
+		long rev=0;
+		if(sum of digits%2==0)
+		{
+			while (sum of digits!=0)
+			{
+				long lastdigit=sum of digits%10;
+				rev=rev*10+lastdigit;
+				sum of digits=sum of digits/10;
+			}
+			if(temp==rev)
+			{
+				System.out.println("sum is even &palindrome");
+			}
+			else
+			{
+		       System.out.println("sum is not a palindrome");
+			}
+		}
+		else
+		{
+			System.out.println("sum is odd");
+		}
+	}
+}

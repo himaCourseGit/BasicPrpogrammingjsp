@@ -1,0 +1,10 @@
+class Merge
+{
+	public static void main(String[] args) 
+	{
+        String s="Java";
+		char ch='E';
+		String res=s+ch;
+		System.out.println(res);
+	}
+}

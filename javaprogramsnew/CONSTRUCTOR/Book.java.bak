@@ -1,0 +1,14 @@
+class Book
+{
+	public Book(String subject,double price)
+	{
+      System.out.println("Book with"+subject+"subject of price"+price+"/-RS");
+	}
+	public Book(int pages)
+	{
+      System.out.println("");
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
